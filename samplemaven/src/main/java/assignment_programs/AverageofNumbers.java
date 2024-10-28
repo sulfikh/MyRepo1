@@ -11,7 +11,7 @@ public class AverageofNumbers {
 		obj.integermethod(355.56f, 56.78f, 34.67f);
 		System.out.println();
 		obj.areaoffigures(3.14f, 45f);
-		obj.areaoffiguresa(120f,34.10f);
+		obj.areaoffigures(120,34);
 		obj.areaoffigures(45.56f);
 		
 
@@ -36,8 +36,8 @@ public class AverageofNumbers {
 		return(area);
 		
 	}
-	public float areaoffiguresa(float length, float width) {
-		float area=length*width;
+	public int areaoffigures(int length, int width) {
+		int area=length*width;
 		System.out.println("Area of Rectangle  :   "+area);
 		return(area);		
 	}
